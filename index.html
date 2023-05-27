@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>二维码身份验证</title>
+</head>
+<body>
+    <h1>请使用手机扫描二维码进行身份验证</h1>
+    {% if confirmed %}
+        <h2>确认操作已完成！</h2>
+    {% else %}
+        <h2>等待确认操作...</h2>
+    {% endif %}
+</body>
+</html>
